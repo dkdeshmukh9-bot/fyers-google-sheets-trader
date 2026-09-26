@@ -1,0 +1,14 @@
+# .gitignore
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.venv/
+venv/
+*.json
+*.log
+.DS_Store
+coverage.xml
+
+# Google service account JSON is often sensitive and should not be committed
+service_account*.json
